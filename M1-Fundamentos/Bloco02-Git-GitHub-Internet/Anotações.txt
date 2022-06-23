@@ -1,0 +1,39 @@
+NOTA - Toda vez que eu alterar meu portfólio e der 'git push' na minha branch 'main' meu deploy vai atualizar automaticamente. Caso crie uma nova branch, tenho de fazer 'merge' com minha branch 'main' para que seja atualizada as alterações;
+
+//master para main
+git checkout -b main
+
+//quebra de linha
+\n
+
+NOTA -  Git (local)
+        GitHub (remoto)
+
+--- VOCABULÁRIO GIT e GITHUB ---
+
+Git: Ferramenta de versionamento de arquivos;
+GitHub: Plataforma de armazenamento remoto;
+
+Merge: 'mesclagem' mescla alterações num mesmo código/projeto (branch master + branch future);
+Imput: postar;
+Pull: 'puxar' para clonar um repositório do GitHub;
+Push: 'empurrar' mandar para o GitHub;
+Branch: uma nova ramificação da linha principal do código, uma branch future;
+Issues: observação no seu código para outro usuário;
+Pull Request: é uma forma colaborativa de compartilhar criação ou mudança de código no repositório;
+Deploy: 'colocar no ar' disponibilizado para testes ou produção;
+Commit: alterações na branch;
+Fork: cópia de um repositório para o seu remoto;
+
+---COMANDOS PARA SUBIR PARA REPOSITORIO REMOTO ---
+
+//entrar na pasta c/ arquivos para ser commitado;
+- git init
+- git add .
+- git status
+- git ad README.md (opcional)
+- git commit -m "nome-do-commit"
+- git branch -M main (ou branch future)
+- git remote add origin "usar URL gerada pelo GitHub"
+- git push -u origin main (ou branch future)
+

@@ -1,0 +1,5 @@
+- Faz a ligação OS, USER, KERNEL
+- Pode ser linha de comando ou GUI
+- Sua função é ler a linha de comando, executar e devolver uma resolução
+Brasil
+Argentina

@@ -1,0 +1,13 @@
+Argentina
+Bash
+Brasil
+CSS
+- Faz a ligação OS, USER, KERNEL
+HTML
+Internet
+JS
+PHP
+- Pode ser linha de comando ou GUI
+React
+- Sua função é ler a linha de comando, executar e devolver uma resolução
+Unix

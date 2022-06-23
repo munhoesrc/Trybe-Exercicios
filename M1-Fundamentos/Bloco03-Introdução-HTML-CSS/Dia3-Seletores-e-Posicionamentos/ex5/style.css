@@ -1,0 +1,61 @@
+ol li {
+    background-color: goldenrod;
+}
+
+ol li:nth-child(even) {
+    color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+h1,
+h3 {
+    color: red;
+}
+
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+.skills li:nth-child(-n + 3) {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
+.websites li:hover {
+    font-weight: bold;
+}
+
+.websites li a[href*="stackoverflow"] {
+    color: orange;
+}
+
+.websites li a[href*="w3schools"] {
+    color: green;
+}
+
+.websites li a[href*="mozilla"] {
+    color: black;
+}
+
+.websites li a[href*="devdocs"] {
+    color: yellow;
+}
+
+.websites li a[href*="trybe"] {
+    color: greenyellow;
+}
