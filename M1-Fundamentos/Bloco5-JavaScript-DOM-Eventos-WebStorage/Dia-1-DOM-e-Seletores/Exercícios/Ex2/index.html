@@ -70,6 +70,13 @@ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
     //Exercicio 4
     document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - JavaScript";
 
+    //Exercicio 5
+    const paragraphUpper = document.getElementsByTagName("p");
+
+    for(maiusculo of paragraphUpper) {
+      maiusculo.innerText = maiusculo.innerText.toUpperCase();
+    }
+
   </script>
 </body>
 
