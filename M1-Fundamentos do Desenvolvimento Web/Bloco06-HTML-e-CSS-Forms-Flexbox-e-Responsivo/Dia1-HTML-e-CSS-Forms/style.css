@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2fc18c;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: large;
+}
+
+.recording {
+  font-size: 12px;
+}
+
+form {
+  background-color: rgb(233, 232, 232);
+  width: 300px;
+  border: 1px solid grey;
+  padding: 50px;
+  margin: 20px;
+  margin-top: 10%;
+  margin-left: 560px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 5px 5px;
+  margin: none;
+  box-sizing: border-box;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 5px 5px;
+  margin: none;
+  box-sizing: border-box;
+}
+
+#botao {
+  border: 1px solid rgb(190, 186, 186);
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px;
+}

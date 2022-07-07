@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submete Palestra</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="aulaaovivo.html">
+  <title>Submeter Palestra</title>
 </head>
+
 <body>
-    
+  <header class="speaker-form-header">
+    <h1>Submeter Palestra</h1>
+    <p>
+      <em>Quer participar da nossa conferencia? Preencha o formulário!</em>
+    </p>
+  </header>
+  <main>
+    <form action="" method="get" class="speaker-form">
+      <section class="form-content">
+        <div class="line-content">
+          <label for="">Nome:</label>
+          <input type="text" name="full-name" id="full-name" />
+        </div>
+        <div class="line-content">
+          <fieldset>
+            <legend>Tipo de Palestra</legend>
+            <input type="radio" name="palestra" id="tipo-1" value="palestra" />
+            <label for="tipo-1">Sala principal</label>
+            <input type="radio" name="palestra" id="tipo-2" value="workshop" />
+            <label for="tipo-2">Workshop</label>
+          </fieldset>
+        </div>
+        <div class="line-content">
+          <label for="">Tamanho da camiseta:</label>
+          <select name="camiseta" id="camiseta">
+            <option value="none">--</option>
+            <option value="gg">Extra Grande</option>
+            <option value="g">Grande</option>
+            <option value="m">Média</option>
+            <option value="p">Pequena</option>
+          </select>
+        </div>
+        <div class="line-content">
+          <label for="">Resumo</label>
+          <textarea name="resumo" id="resumo" placeholder="Descreva aqui..."></textarea>
+          <span class="instruções">Descreva a sua palestra em 500 palavras ou menos.</span>
+        </div>
+        <div class="line-content">
+          <label for="">
+            <input type="checkbox" name="disponibilidade" id="disponibilidade" value="disponibilidade-ok" />
+            <span>Eu tenho disponibilidade para participar do evento nessa
+              data!</span>
+          </label>
+        </div>
+        <div class="line-content">
+          <button class="btn-enviar" type="submit">Enviar</button>
+        </div>
+      </section>
+    </form>
+  </main>
 </body>
 </html>
