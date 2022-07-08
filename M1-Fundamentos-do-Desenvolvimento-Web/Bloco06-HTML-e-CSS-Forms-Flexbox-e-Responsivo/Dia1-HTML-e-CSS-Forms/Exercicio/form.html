@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trybe Trip</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
 </head>
 
 <body>
@@ -39,35 +38,47 @@
       <div class="destination-container">
         <p>Destino preferido:</p>
 
-        <label for="opcao1"><input type="radio" id="opcao1" name="opcao" value="op1" /> Cidade</label>
-        <label for="opcao2"><input type="radio" id="opcao2" name="opcao" value="op2" /> Campo</label>
-        <label for="opcao3"><input type="radio" id="opcao3" name="opcao" value="op3" /> Praia</label>
-        <label for="opcao4"><input type="radio" id="opcao4" name="opcao" value="op4" /> Montanhas</label>
+        <div>
+          <label for="opcao1"><input type="radio" id="opcao1" name="opcao" value="op1" />
+            Cidade</label>
+        </div>
+        <div>
+          <label for="opcao2"><input type="radio" id="opcao2" name="opcao" value="op2" />
+            Campo</label>
+        </div>
+        <div>
+          <label for="opcao3"><input type="radio" id="opcao3" name="opcao" value="op3" />
+            Praia</label>
+        </div>
+        <div>
+          <label for="opcao4"><input type="radio" id="opcao4" name="opcao" value="op4" />
+            Montanhas</label>
+        </div>
 
-        <p>
-          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
-          TrybeTrip?
-        </p>
-
-        <textarea name="" id="" maxlength="500" cols="40" rows="05"></textarea>
+        <div class="ask-question">
+          <label for="ask">
+            Por que você deveria ser a pessoa desenvolvedora a ganhar o
+            concurso TrybeTrip?
+          </label>
+          <textarea name="ask" id="ask" maxlength="500" cols="40" rows="05"></textarea>
+        </div>
 
         <div class="save-date">
           <p>Qual a melhor data para realizar sua viagem?</p>
           <input type="date" id="input-date" name="input-date" />
         </div>
 
-
         <div>
-          <label for="news"><input type="checkbox" name="news" id="news" />Gostaria de receber outras incríveis
-            oportunidades oferecidas pela
+          <label for="news"><input type="checkbox" name="news" id="news" />Gostaria de
+            receber outras incríveis oportunidades oferecidas pela
             Trybe?</label>
         </div>
 
         <div>
-          <label for="autorizar"><input type="checkbox" name="autorizar" id="autorizar" required /> AUTORIZO o
-            uso de imagem para ser utilizada em divulgação de concursos futuros.</label>
+          <label for="autorizar"><input type="checkbox" name="autorizar" id="autorizar" required />
+            AUTORIZO o uso de imagem para ser utilizada em divulgação de
+            concursos futuros.</label>
         </div>
-
       </div>
     </fieldset>
 
