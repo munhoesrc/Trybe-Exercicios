@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trybe Trip</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <h1>TRYBE TRIP</h1>
+  </header>
+  <form action="" method="GET" enctype="multipart/form-data">
+    <fieldset>
+      <legend>Dados Cadastrais</legend>
+
+      <div class="registration-data">
+        <div class="input-field">
+          <label for="full-name">Nome:
+            <input type="text" name="full-name" id="full-name" min="10" max="40" />
+          </label>
+        </div>
+
+        <div class="input-field">
+          <label for="email">Email:
+            <input type="email" name="email" id="email" min="10" max="50" />
+          </label>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações sobre a viagem</legend>
+      <div class="destination-container">
+        <p>Destino preferido:</p>
+
+        <label for="opcao1"><input type="radio" id="opcao1" name="opcao" value="op1" /> Cidade</label>
+        <label for="opcao2"><input type="radio" id="opcao2" name="opcao" value="op2" /> Campo</label>
+        <label for="opcao3"><input type="radio" id="opcao3" name="opcao" value="op3" /> Praia</label>
+        <label for="opcao4"><input type="radio" id="opcao4" name="opcao" value="op4" /> Montanhas</label>
+
+        <p>
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </p>
+
+        <textarea name="" id="" maxlength="500" cols="40" rows="05"></textarea>
+
+        <div class="save-date">
+          <p>Qual a melhor data para realizar sua viagem?</p>
+          <input type="date" id="input-date" name="input-date" />
+        </div>
+
+
+        <div>
+          <label for="news"><input type="checkbox" name="news" id="news" />Gostaria de receber outras incríveis
+            oportunidades oferecidas pela
+            Trybe?</label>
+        </div>
+
+        <div>
+          <label for="autorizar"><input type="checkbox" name="autorizar" id="autorizar" required /> AUTORIZO o
+            uso de imagem para ser utilizada em divulgação de concursos futuros.</label>
+        </div>
+
+      </div>
+    </fieldset>
+
+    <div>
+      <button type="submit" id="submit-button">Enviar</button>
+      <button type="reset" id="reset-button">Limpar</button>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
