@@ -1,0 +1,26 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(181, 221, 247);
+}
+
+.footer {
+  text-align: center;
+  color: black;
+}
+.meustyle {
+    border: 1px solid rgb(214, 217, 220);
+    border-radius: 3px;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.efeito {
+    border: 1px solid black;
+}
