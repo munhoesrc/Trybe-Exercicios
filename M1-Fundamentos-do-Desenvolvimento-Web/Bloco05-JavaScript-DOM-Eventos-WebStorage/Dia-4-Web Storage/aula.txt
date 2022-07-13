@@ -1,0 +1,12 @@
+- Manipular o objeto localStorage;
+- Manipular o objeto sessionStorage;
+- Cookies;
+
+localStorage
+-> Salva os dados sem data de expiração. 
+Os dados não são removidos quando o browser for fechado,
+ou seja, eles ficarão disponiveis em quanto não forem explicitamente removidos.
+
+sessionStorage
+-> Salva os dados apneas para a sessão atual.
+Os dados são removidos assim que o usuario fecha a aba (tab) ou o navegador (browser).
