@@ -207,4 +207,22 @@ console.log(person)
 
   // ---------------------------------------------
 
-  
+  const ex = {
+    chave1: "a",
+    chave2: "b",
+    chave3: "c"
+  }
+  console.log(Object.values(ex));
+
+  // -------------------------------------------
+
+
+const getDayName = (number) => {
+  const dayNumber = number - 1;
+  const days = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+  return days[dayNumber];
+};
+
+const printDayname = (dayNumber) => {
+  console.log(getDayName(dayNumber));
+};
