@@ -12,7 +12,7 @@ function sum() {
   result = sum(value1, value2);
   
   } catch (error) {
-    document.getElementsByTagName('p')[0].innerText = error.menssage;
+    document.getElementsById('result').innerText = error.menssage;
   }
 
   const loadApp = () =>{
