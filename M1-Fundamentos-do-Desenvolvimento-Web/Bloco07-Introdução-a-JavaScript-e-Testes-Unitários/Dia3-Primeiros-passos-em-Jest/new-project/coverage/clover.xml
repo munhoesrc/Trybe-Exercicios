@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1658184806149" clover="3.2.0">
+  <project timestamp="1658184806150" name="All files">
+    <metrics statements="16" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5" elements="25" coveredelements="23" complexity="0" loc="16" ncloc="16" packages="1" files="2" classes="2"/>
+    <file name="loginValidation.js" path="/home/munhoesrc/Documentos/Trybe-Exercicios/M1-Fundamentos-do-Desenvolvimento-Web/Bloco07-Introdução-a-JavaScript-e-Testes-Unitários/Dia3-Primeiros-passos-em-Jest/new-project/loginValidation.js">
+      <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
+    <file name="script.js" path="/home/munhoesrc/Documentos/Trybe-Exercicios/M1-Fundamentos-do-Desenvolvimento-Web/Bloco07-Introdução-a-JavaScript-e-Testes-Unitários/Dia3-Primeiros-passos-em-Jest/new-project/script.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
