@@ -7,5 +7,5 @@ const somaDoPares = par.reduce((total, numero) => {
 }) 
 
 console.log(par);
-console.log('A soma dos pares é',somaDoPares);
+console.log('A soma dos pares é ',somaDoPares);
 
