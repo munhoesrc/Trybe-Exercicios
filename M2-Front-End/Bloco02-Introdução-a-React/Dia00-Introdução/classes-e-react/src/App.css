@@ -14,3 +14,19 @@
   font-size: calc(10px + 2vmin);
   color: #61dafb;
 }
+
+.About__first {
+  margin-bottom: 10%;
+}
+
+.About__text {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  text-shadow: 1px 1px 2px white;
+  
+}
+
+.About__second {
+  margin-top: 5%;
+}
