@@ -7,6 +7,8 @@ COPY _index.md /site/content/_index.md
 
 RUN apk add hugo
 RUN hugo --minify --gc
-RUN mv /site/public/* /usr/share/nginx/html
+# RUN mv /site/public/* /usr/share/nginx/html
 
+FROM nginx:1.21-alpine AS segundo-estagio
+COPY --from=primeiro-estagio /site/public/ /usr/share/nginx/html
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
