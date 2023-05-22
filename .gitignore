@@ -1,3 +1,7 @@
+!.empty
+*node_modules
+*.env
+
 # Arquivos Python compilados
 __pycache__/
 *.pyc
